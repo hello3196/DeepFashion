@@ -9,7 +9,7 @@ This is the github for team42's Final Project.
 
 Python 3, PyTorch >= 0.4.0, and make sure you have installed TensorboardX:
 
-  pip install tensorboardX
+	pip install tensorboardX
 
 dsf
 
