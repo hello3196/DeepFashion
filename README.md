@@ -16,7 +16,7 @@ Python 3, PyTorch >= 0.4.0, and make sure you have installed TensorboardX:
 
 Download the "Category and Attribute Prediction Benchmark" of the DeepFashion dataset [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html). Extract all the files to a folder and put all the images in a folder named "img".
 
-Also, for evaluation, we used the images from MUSINSA. Download the images [here](). The images will be in a folder named "real".
+Also, for evaluation, we used the images from MUSINSA. Download the images [here](https://drive.google.com/drive/folders/18sg1oCNp5xN4c9CBffdIb01oSqlEuFvd?usp=sharing). The images will be in a folder named "real".
 
 For example, if you choose to put the dataset to /home/user/datasets/benchmark1/, the structure of this folder will be:
 
