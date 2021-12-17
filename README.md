@@ -45,7 +45,7 @@ To train the model from scratch, run:
 
 #### 4. Reproduce the results
 
-To reproduce the results for images from MUSINSA, download the pre-trained model "whole.pkl" [here](). The location for the model should be:
+To reproduce the results for images from MUSINSA, download the pre-trained model "whole.pkl" [here](https://drive.google.com/file/d/1iFLrjPSYTRHPBTtH_723GMe6-BQ5FAK0/view?usp=sharing). The location for the model should be:
 
 	DeepFashion/
 	    __MACOSX/
@@ -58,4 +58,7 @@ To reproduce the results for images from MUSINSA, download the pre-trained model
 To reproduce the results, run:
 
 	python -m src.val --conf src.conf.whole
+
+The original images, attention maps and landmark location maps will be saved as image files in the directory. The output category of each images will be printed in category numbers. You can find out corresponding category in the link of the full dataset above.
+
 
