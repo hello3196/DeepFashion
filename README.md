@@ -12,7 +12,7 @@ Python 3, PyTorch >= 0.4.0, and make sure you have installed TensorboardX:
 
 # Quick Start
 
-## 1. Prepare the Dataset
+### 1. Prepare the Dataset
 
 Download the "Category and Attribute Prediction Benchmark" of the DeepFashion dataset [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html). Extract all the files to a folder and put all the images in a folder named "img".
 
@@ -31,7 +31,7 @@ Please modify the variable "base_path" in src/const.py correspondingly:
 	# in src/const.py
 	base_path = "/home/user/datasets/benchmark1/"
 
-## 2. Create info.csv
+#### 2. Create info.csv
 
 	python -m src.create_info
 
