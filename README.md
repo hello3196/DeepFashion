@@ -12,7 +12,7 @@ Python 3, PyTorch >= 0.4.0, and make sure you have installed TensorboardX:
 
 # Quick Start
 
-### 1. Prepare the Dataset
+#### 1. Prepare the Dataset
 
 Download the "Category and Attribute Prediction Benchmark" of the DeepFashion dataset [here](http://mmlab.ie.cuhk.edu.hk/projects/DeepFashion/AttributePrediction.html). Extract all the files to a folder and put all the images in a folder named "img".
 
@@ -37,13 +37,13 @@ Please modify the variable "base_path" in src/const.py correspondingly:
 
 Please make sure you have modified the variable "base_path" in src/const.py, otherwise you may encounter a FileNotFound error. After the script finishes, you will find a file named "info.csv" in your "base_path"
 
-## 3. Train the model
+#### 3. Train the model
 
 To train the model from scratch, run:
 
 	python -m src.train --conf src.conf.whole
 
-## 4. Reproduce the results
+#### 4. Reproduce the results
 
 To reproduce the results for images from MUSINSA, download the pre-trained model "whole.pkl" [here](). The location for the model should be:
 
