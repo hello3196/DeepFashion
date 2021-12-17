@@ -78,6 +78,9 @@ if __name__ == '__main__':
         lm = torch.sum(output['lm_pos_map'], dim=1, keepdim=True)
         atm = atm.cpu().numpy()
         lm = lm.cpu().numpy()
+
+        print(torch.argmax(output['category_output'], dim=1))
+
         for c in range(8):
             temp = sns.heatmap(atm[c].squeeze())
             plt.savefig(f'att_map{c}.png')
