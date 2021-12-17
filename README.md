@@ -3,7 +3,7 @@ DeepFashion for CS492 Final Project
 
 This is the github for our team's Final Project.
 
-![DeepFashion Architecture](https://user-images.githubusercontent.com/45480548/146496263-c59bef3b-e6f6-40e2-8ce1-bf23fa5075ff.jpg)
+![image](https://user-images.githubusercontent.com/45480548/146496497-b55e2faa-3c6c-433f-9897-d688d97d7d48.png)
 
 Due to the memory the pre-trained model is uploaded in the Google Drive.
 The link to the pre-trained model will be provided below.
